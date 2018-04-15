@@ -1,0 +1,42 @@
+body{
+	background: url('https://manofmany.com/wp-content/uploads/2015/04/essentials-david-rasool-robinson-of-saint-alfred-0.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+/*Navbar Starts Here*/
+#title-navbar{
+	padding-left: 7%;
+}
+
+#navbar{
+	background: rgba(240, 248, 255, 0.5);
+}
+
+/*Navbar Ends Here*/
+
+/*Content Starts Here*/
+.content{
+	margin-top: 7%;
+}
+
+#form-login{
+	background: rgba(252, 255, 240, 0.5);
+	border-radius: 3%;
+	margin-top: 12%;
+	padding: 3%;
+	text-align: center;
+}
+
+#title-jumbo{
+	text-align: center;
+	padding-left: 28%;
+	font-family: 'Raleway', sans-serif;
+	color: #551011;
+}
+
+#jumbotron{
+	background: rgba(255, 255, 224, 0.5);
+}
+/*Content Ends Here*/

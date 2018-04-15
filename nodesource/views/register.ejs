@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Morning Essentials</title>
+	<!-- Logo For Navbar -->
+	<link rel="shortcut icon" type="image/png" href="images/logo.png">
+
+	<!-- CSS Files-->
+	<link rel="stylesheet" type="text/css" href="css/semantic.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+</head>
+<body>
+	<!-- Navbar Starts Here -->
+	<div class="ui borderless fixed menu" id="navbar">
+	  <a class="item" id="title-navbar">
+	    Morning Essentials
+	  </a>
+	  <div class="right menu">
+	    <div class="ui simple dropdown item">
+	      Language <i class="dropdown icon"></i>
+	      <div class="menu">
+	        <a class="item">English</a>
+	        <a class="item">Russian</a>
+	        <a class="item">Spanish</a>
+	      </div>
+	    </div>
+	    <a class="item" href="/signup">
+	        <div class="ui primary button">Sign Up</div>
+	    </a>
+	  </div>
+	</div>
+	<!-- Navbar Ends Here -->
+
+	<!-- Content Starts Here -->
+	<div class="content">
+		<div class="ui container">
+			<div class="column padding-reset" >
+                <div class="ui huge message page grid" id="jumbotron">
+                    <h1 class="ui huge header" id="title-jumbo">Morning Essentials</h1>
+                </div>
+            </div>
+			<div class="ui grid">
+				<div class="five wide column"></div>
+				<div class="six wide column" >
+					<form class="ui form" id="form-login" action="/register" method="POST"> 
+					  <div class="two fields">
+					    <div class="field">
+					      <label>First Name</label>
+					      <input type="text" name="fname" placeholder="First Name">
+					    </div>
+					    <div class="field">
+					      <label>Last Name</label>
+					      <input type="text" name="lname" placeholder="Last Name">
+					    </div>
+					  </div>
+					  <div class="field">
+					          <label>Gender</label>
+					          <select class="ui fluid dropdown" name="gender">
+					            <option value="">Select One</option>
+					        <option value="male">Male</option>
+					        <option value="female">Female</option>
+					        <option value="trans">TransGender</option>
+					    </select>
+					  </div>
+					  <div class="two fields">
+					    <div class="field">
+					      <label>Username</label>
+					      <input type="text" name="username" placeholder="Username">
+					    </div>
+					    <div class="field">
+					      <label>Password</label>
+					      <input type="password" name="password" placeholder="Password">
+					    </div>
+					  </div>
+					  <div class="field">
+					          <label>City</label>
+					          <select class="ui fluid dropdown">
+					            <option value="">State</option>
+					        <option value="MAA">Chennai</option>
+					        <option value="STV">Surat</option>
+					        <option value="BOM">Mumbai</option>
+					    </select>
+					  </div>
+
+					  <button class="ui green button" type="submit">Submit</button>
+					  <button class="ui red button" type="reset">Reset</button>
+					</form>
+				</div>
+				<div class="five wide column"></div>
+			</div>
+		</div>
+	</div>
+	<!-- Content Ends Here -->
+
+	<!-- Footer Starts Here -->
+
+	<!-- Footer Ends Here -->
+</body>
+</html>
